@@ -1,7 +1,6 @@
-var solarSystem = (function(){
+var SolarSystem = (function(){
 	var planets = ["mercury", "uranus", "mars", "earth", "jupiter", "saturn", "neptune", "venus"];
 	var numPlanetsPeopleLandedOn = 0;
-	var spaceships = [];
 	var stars = ["sun", "alpha centauri", "wolf 359"];
 	var age = 0;
 	return {
@@ -14,15 +13,6 @@ var solarSystem = (function(){
 		setPlanetsPeopleLandedOn: function(){
 			numPlanetsPeopleLandedOn ++;
 			return console.log("New num is ", numPlanetsPeopleLandedOn);
-		},
-		getSpaceships: function(){
-			return spaceships;
-		},
-		setSpaceships: function(newSpaceship){
-			spaceships.push(newSpaceship);
-		},
-		wreckSpaceships: function(){
-			spaceships.pop();
 		},
 		getStars: function(){
 			return stars;
