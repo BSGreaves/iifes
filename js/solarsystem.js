@@ -14,17 +14,5 @@ var SolarSystem = (function(){
 			numPlanetsPeopleLandedOn ++;
 			return console.log("New num is ", numPlanetsPeopleLandedOn);
 		},
-		getStars: function(){
-			return stars;
-		},
-		setStars: function(newStar){
-			stars.push(newStar);
-		},
-		getSolarSystemAge: function(){
-			return age;
-		},
-		setSolarSystemAge: function(){
-			age++;
-		}
-	}
+	};
 })();

@@ -10,6 +10,7 @@ var SolarSystem = (function(oldSolarSystem){
 	oldSolarSystem.wreckSpaceships = function(){
 		spaceships.pop();
 	}
+	
 	return oldSolarSystem;
 })(SolarSystem || {});
 
